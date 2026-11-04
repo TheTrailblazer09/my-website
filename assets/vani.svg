@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="400" height="460">
+  <defs>
+    <pattern id="stripes" width="64" height="64" patternUnits="userSpaceOnUse" patternTransform="rotate(-32)">
+      <rect width="64" height="64" fill="#f7f4ec"/>
+      <rect y="0" width="64" height="20" fill="#3f6fc4"/>
+      <rect y="30" width="64" height="14" fill="#f2c84b"/>
+    </pattern>
+    <clipPath id="shirtClip"><path d="M36 460 C42 392 98 352 160 344 L250 344 C312 352 364 392 370 460 Z"/></clipPath>
+  </defs>
+  <g stroke="#1d1a1c" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- hair, back -->
+    <path d="M114 168 C104 86 158 54 206 54 C266 54 318 98 310 180 C316 252 324 318 346 396 C336 408 326 400 318 414 C306 404 296 418 284 410 L136 410 C124 420 112 404 100 414 C90 402 78 408 64 396 C84 318 104 250 114 168 Z" fill="#221c26"/>
+
+    <!-- shirt -->
+    <path d="M36 460 C42 392 98 352 160 344 L250 344 C312 352 364 392 370 460 Z" fill="url(#stripes)"/>
+    <path d="M118 408 C126 428 128 446 126 460 M318 420 C312 436 312 450 314 460" fill="none" stroke-width="2.4"/>
+
+    <!-- neck + neckline -->
+    <path d="M172 286 L172 350 L238 350 L238 286 Z" fill="#c58866"/>
+    <path d="M172 300 Q205 326 238 300 L238 318 Q205 340 172 318 Z" fill="#a8704f" stroke="none"/>
+    <path d="M160 346 L205 398 L250 346" fill="#c58866"/>
+    <!-- pendant -->
+    <path d="M178 350 Q205 392 232 350" fill="none" stroke-width="1.6" stroke="#b08a3a"/>
+    <path d="M198 384 L212 384 L205 398 Z" fill="#e2b85a" stroke-width="2"/>
+    <circle cx="205" cy="388.5" r="2.4" fill="#1d1a1c" stroke="none"/>
+
+    <!-- face -->
+    <path d="M128 188 C128 124 164 98 206 98 C250 98 284 126 284 188 C284 252 252 300 206 304 C160 300 128 252 128 188 Z" fill="#cf9572"/>
+    <!-- cheeks -->
+    <ellipse cx="160" cy="242" rx="15" ry="8" fill="#e27f6c" opacity=".55" stroke="none"/>
+    <ellipse cx="252" cy="242" rx="15" ry="8" fill="#e27f6c" opacity=".55" stroke="none"/>
+    <!-- brows -->
+    <path d="M158 170 Q176 159 194 166" fill="none" stroke-width="5"/>
+    <path d="M218 166 Q236 159 254 170" fill="none" stroke-width="5"/>
+    <!-- happy, squinty eyes -->
+    <path d="M163 200 Q175 189 188 199" fill="none" stroke-width="4"/>
+    <path d="M224 199 Q237 189 249 200" fill="none" stroke-width="4"/>
+    <path d="M161 197 L156 193 M251 197 L256 193" stroke-width="3"/>
+    <!-- glasses -->
+    <rect x="148" y="176" width="52" height="42" rx="16" fill="#ffffff" fill-opacity=".14" stroke-width="3.6"/>
+    <rect x="212" y="176" width="52" height="42" rx="16" fill="#ffffff" fill-opacity=".14" stroke-width="3.6"/>
+    <path d="M200 192 Q206 186 212 192" fill="none" stroke-width="3.2"/>
+    <path d="M148 190 L132 186 M264 190 L280 186" stroke-width="3.2"/>
+    <path d="M156 184 L164 180 M220 184 L228 180" stroke="#ffffff" stroke-width="3" opacity=".8"/>
+    <!-- nose + tiny mole -->
+    <path d="M207 208 Q199 236 211 240" fill="none" stroke-width="3"/>
+    <circle cx="192" cy="250" r="1.8" fill="#4a2c22" stroke="none"/>
+    <!-- big smile -->
+    <path d="M172 252 Q206 304 240 252 Q206 263 172 252 Z" fill="#7a2a2e"/>
+    <path d="M178 255 Q206 266 234 255 L230 264 Q206 274 182 264 Z" fill="#ffffff" stroke-width="2"/>
+    <path d="M190 280 Q206 287 222 280" fill="none" stroke="#c4555c" stroke-width="3"/>
+
+    <!-- hair, front curtains with a side part -->
+    <path d="M214 100 C166 96 124 128 114 190 C106 242 112 292 98 344 L134 344 C140 292 138 238 144 198 C152 152 180 120 214 104 Z" fill="#221c26"/>
+    <path d="M214 100 C258 100 296 132 300 198 C306 258 302 300 318 344 L284 344 C280 300 282 250 276 206 C268 156 246 124 214 104 Z" fill="#221c26"/>
+    <path d="M214 98 C206 112 196 122 186 128" fill="none" stroke="#221c26" stroke-width="6"/>
+    <!-- blue sheen in the hair, painted in flat strokes -->
+    <g fill="#3d5fa8" stroke="none">
+      <path d="M124 212 C116 232 116 256 120 276 C126 258 128 234 124 212 Z"/>
+      <path d="M131 196 C126 206 124 216 125 226 C130 216 132 206 131 196 Z"/>
+      <path d="M138 162 C146 146 156 134 170 124 C160 140 150 152 138 162 Z"/>
+      <path d="M232 106 C250 108 266 118 278 134 C264 124 250 116 232 106 Z"/>
+      <path d="M288 214 C296 236 296 260 292 282 C288 262 286 238 288 214 Z"/>
+      <path d="M296 202 C300 210 302 220 300 228 C297 220 295 210 296 202 Z"/>
+      <path d="M86 372 C88 350 92 330 98 310 C96 332 92 352 86 372 Z"/>
+      <path d="M322 370 C320 350 318 332 314 314 C320 332 324 350 322 370 Z"/>
+      <path d="M150 74 C168 64 186 60 204 60 C186 66 168 70 150 74 Z"/>
+    </g>
+    <!-- gold hoops -->
+    <circle cx="136" cy="262" r="6" fill="none" stroke="#d6a93a" stroke-width="3"/>
+    <circle cx="278" cy="262" r="6" fill="none" stroke="#d6a93a" stroke-width="3"/>
+
+    <!-- a glass of cutting chai -->
+    <path d="M270 352 C266 340 280 334 274 320" fill="none" stroke="#8a8590" stroke-width="3"/>
+    <path d="M288 352 C282 338 296 332 290 318" fill="none" stroke="#8a8590" stroke-width="3"/>
+    <path d="M260 360 L304 360 L299 418 L265 418 Z" fill="#d9944e"/>
+    <ellipse cx="282" cy="360" rx="22" ry="5" fill="#f0c58e"/>
+    <path d="M271 366 L273 412 M282 366 L282 414 M293 366 L291 412" stroke="#ffffff" stroke-width="2" opacity=".55"/>
+    <!-- hand around the glass -->
+    <path d="M252 460 C248 436 250 418 258 406 L306 404 C314 418 312 440 304 460 Z" fill="#cf9572"/>
+    <rect x="252" y="376" width="56" height="13" rx="6.5" fill="#cf9572"/>
+    <rect x="252" y="389" width="58" height="13" rx="6.5" fill="#cf9572"/>
+    <rect x="254" y="402" width="54" height="13" rx="6.5" fill="#cf9572"/>
+    <path d="M256 412 C246 404 246 384 254 374" fill="#cf9572"/>
+    <path d="M250 450 C262 444 280 446 300 452" fill="none" stroke-width="2.4" opacity=".6"/>
+    <!-- bracelet -->
+    <path d="M250 448 C266 440 290 440 306 448" fill="none" stroke="#d6a93a" stroke-width="5"/>
+  </g>
+</svg>
