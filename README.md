@@ -21,5 +21,5 @@ Then open http://localhost:8000.
 ## Art credits (public domain)
 
 - Wallpaper: *The Ninth Wave*, Ivan Aivazovsky, 1850 (pixelated)
-- Paint window: *Shakuntala*, Raja Ravi Varma
+- Paint window: *The Storm on the Sea of Galilee*, Rembrandt, 1633 (stolen from the Isabella Stewart Gardner Museum in 1990)
 - `assets/vani.svg`: an original illustration made for this site

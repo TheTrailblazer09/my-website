@@ -117,7 +117,9 @@
   .toolbox i.on { border-color: #808080 #fff #fff #808080; background: #f8f8f8; }
   .toolbox svg { width: 15px; height: 15px; shape-rendering: crispEdges; }
   .canvaswrap { background: #808080; padding: 4px; }
-  .canvaswrap img { display: block; width: 100%; height: 330px; object-fit: cover; object-position: 60% 42%; image-rendering: auto; }
+  .canvaswrap img { display: block; width: 100%; height: 330px; object-fit: cover; object-position: 50% 30%; image-rendering: auto; }
+  .artnote { padding: 6px 8px; border-top: 1px solid #fff; font-size: 11px; line-height: 1.45; color: #222; }
+  .artnote a { font-weight: bold; white-space: nowrap; }
   .palette { display: flex; align-items: center; gap: 6px; padding: 4px; border-top: 1px solid #fff; }
   .palette .cur { width: 28px; height: 28px; position: relative; border: 1px solid; border-color: #808080 #fff #fff #808080; background: #d4d0c8; flex: none; }
   .palette .cur i { position: absolute; width: 12px; height: 12px; border: 1px solid #000; }
@@ -243,16 +245,17 @@
 </section>
 
 <!-- ================= Paint ================= -->
-<section class="win" id="w-paint" data-title="shakuntala - Paint" data-ico="paint">
-  <div class="tb"><svg class="ico" data-ico="paint"></svg><span class="t">shakuntala.bmp - Paint</span>
+<section class="win" id="w-paint" data-title="storm_on_galilee - Paint" data-ico="paint">
+  <div class="tb"><svg class="ico" data-ico="paint"></svg><span class="t">storm_on_galilee.bmp - Paint</span>
     <button class="tbtn min" aria-label="Minimize"></button><button class="tbtn max" aria-label="Maximize"></button><button class="tbtn x" aria-label="Close"></button></div>
   <div class="menu"><span>File</span><span>Edit</span><span>View</span><span>Image</span><span>Colors</span><span>Help</span></div>
   <div class="paintarea">
     <div class="toolbox" id="toolbox"></div>
-    <div class="canvaswrap"><img src="assets/shakuntala.jpg" alt="Raja Ravi Varma, Shakuntala"></div>
+    <div class="canvaswrap"><img src="assets/storm-galilee.jpg" alt="Rembrandt, The Storm on the Sea of Galilee: a small fishing boat tipped up on a huge wave, its sail torn, under a breaking storm"></div>
   </div>
   <div class="palette"><div class="cur"><i style="left:3px;top:3px;background:#c0533a"></i><i style="left:11px;top:11px;background:#fff"></i></div><div class="grid" id="colors"></div></div>
-  <div class="status"><span>Raja Ravi Varma, <i>Shakuntala</i> · public domain</span></div>
+  <div class="artnote">Rembrandt, <i>The Storm on the Sea of Galilee</i>, 1633. His only seascape. Stolen from the Isabella Stewart Gardner Museum in 1990 and still missing; its empty frame still hangs there. <a href="https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee" target="_blank" rel="noopener">Why it's beautiful ↗</a></div>
+  <div class="status"><span>Public domain</span><span style="flex:.6">1633 · oil on canvas</span></div>
 </section>
 
 <!-- ================= voice.txt ================= -->
